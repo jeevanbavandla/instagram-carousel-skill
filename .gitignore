@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+env/
+venv/
+
+# Exports / generated files
+exports/
+*.png
+*.pdf
+carousels/brand-config.json
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
