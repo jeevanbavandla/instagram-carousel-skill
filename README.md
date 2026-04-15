@@ -21,7 +21,7 @@ No design tools. No templates. No Canva. Your brand, auto-applied on every slide
 ## Install in 30 Seconds
 
 ```bash
-cp -r instagram-carousel/ ~/.claude/skills/
+npx skills add jeevanbavandla/instagram-carousel-skill
 ```
 
 Open Claude Code → ask for a carousel → done. Brand setup runs once, never again.
@@ -69,7 +69,7 @@ Every carousel includes:
 | | [Claude Code](instagram-carousel/) | [Claude.ai](claude-ai/) |
 | --- | --- | --- |
 | **Who it's for** | Technical users, developers | Anyone — no coding needed |
-| **Setup** | `cp` command · 30 seconds | Paste a file · 5 minutes |
+| **Setup** | `npx skills add` · 30 seconds | Paste a file · 5 minutes |
 | **Export quality** | Pixel-perfect via Playwright | Browser PNG/PDF export |
 | **Brand config** | Saved in `brand-config.json` | Stored in Project Instructions |
 | **Get started** | [→ Claude Code setup](#claude-code-setup) | [→ Claude.ai setup](claude-ai/README.md) |
@@ -87,10 +87,12 @@ Every carousel includes:
 ### Install
 
 ```bash
-cp -r instagram-carousel/ ~/.claude/skills/
+npx skills add jeevanbavandla/instagram-carousel-skill
 ```
 
-Or drop into your project's `.claude/skills/` folder instead. Claude auto-detects it.
+Or install globally with: `npx skills add jeevanbavandla/instagram-carousel-skill -g`
+
+> **Manual fallback:** `cp -r instagram-carousel/ ~/.claude/skills/`
 
 ### Brand Setup (First Time Only)
 
